@@ -1,0 +1,32 @@
+// Choose payment
+p.payment_module a.bitcoin:hover {
+    background-color: #f6f6f6;
+}
+p.payment_module a.bitcoin {
+    background-image: url("../../../modules/bitcoin/img/bitcoin.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 15px 15px;
+    background-color: #fbfbfb;
+}
+p.payment_module a.bitcoin:after {
+    color: #777777;
+    content: "";
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 25px;
+    height: 22px;
+    margin-top: -11px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 14px;
+}
+p.payment_module a.bitcoin:hover {
+    background-color: #f6f6f6;
+}
+
+// Bitcoin cart validation
+#module-bitcoin-validation .total_price_container {
+    color: #000;
+}
