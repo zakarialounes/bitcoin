@@ -12,5 +12,6 @@ This module allows you to accept payments by bitcoin.
 
 3) Then, install it on your backoffice
 
+4) Configure
 
 Enjoy!
